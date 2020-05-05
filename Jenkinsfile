@@ -10,6 +10,7 @@ pipeline {
                     ls -lah
                 '''
                 sh 'echo I "I am the KING!"'
+                sh 'date'
             }
         }
     }
